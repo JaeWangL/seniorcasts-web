@@ -672,6 +672,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@chakra-ui/icons@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "@chakra-ui/icons@npm:2.0.3"
+  dependencies:
+    "@chakra-ui/icon": 3.0.3
+    "@types/react": ^18.0.1
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0-next.0"
+    react: ">=18"
+  checksum: 8aa12bf5c8d94fd6c2d031b0f3efe53c1304d70908d89f7f53b1a5e791c54df721c6a8cfb9fca22cd087117e870599b0a0012742a42562ae84057428b1abc1ce
+  languageName: node
+  linkType: hard
+
 "@chakra-ui/image@npm:2.0.4":
   version: 2.0.4
   resolution: "@chakra-ui/image@npm:2.0.4"
@@ -2590,7 +2603,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.0.15":
+"@types/react@npm:*, @types/react@npm:^18.0.1, @types/react@npm:^18.0.15":
   version: 18.0.15
   resolution: "@types/react@npm:18.0.15"
   dependencies:
@@ -4062,7 +4075,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:^1.10.4":
+"dayjs@npm:^1.10.4, dayjs@npm:^1.11.3":
   version: 1.11.3
   resolution: "dayjs@npm:1.11.3"
   checksum: c87e06b562a51ae6568cc5b840c7579d82a0f8af7163128c858fe512d3d71d07bd8e8e464b8cc41b8698a9e26b80ab2c082d14a1cd4c33df5692d77ccdfc5a43
@@ -8238,7 +8251,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-fast-compare@npm:3.2.0":
+"react-fast-compare@npm:3.2.0, react-fast-compare@npm:^3.2.0":
   version: 3.2.0
   resolution: "react-fast-compare@npm:3.2.0"
   checksum: 8ef272c825ae329f61633ce4ce7f15aa5b84e5214d88bc0823880236e03e985a13195befa2c7a4eda7db3b017dc7985729152d88445823f652403cf36c2b86aa
@@ -8669,6 +8682,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "seniorcasts-web@workspace:."
   dependencies:
+    "@chakra-ui/icons": ^2.0.3
     "@chakra-ui/react": ^2.2.3
     "@commitlint/cli": ^17.0.3
     "@commitlint/config-conventional": ^17.0.3
@@ -8685,6 +8699,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.30.5
     autoprefixer: ^10.4.7
     cypress: ^10.3.0
+    dayjs: ^1.11.3
     eslint: ^8.19.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-airbnb-typescript: ^17.0.0
@@ -8713,6 +8728,7 @@ __metadata:
     prettier: ^2.7.1
     react: ^18.2.0
     react-dom: ^18.2.0
+    react-fast-compare: ^3.2.0
     rimraf: ^3.0.2
     typescript: ^4.7.4
   languageName: unknown

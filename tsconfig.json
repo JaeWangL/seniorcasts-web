@@ -38,8 +38,10 @@
     "baseUrl": ".",
     "paths": {
       "@components/*": ["./components/*"],
+      "@constants/*": ["./constants/*"],
       "@features/*": ["./features/*"],
       "@layouts/*": ["./layouts/*"],
+      "@libs/*": ["./libs/*"],
       "@pages/*": ["./pages/*"],
       "@assets/*": ["./public/*"]
     }
