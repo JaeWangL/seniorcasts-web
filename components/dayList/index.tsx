@@ -49,6 +49,6 @@ function DayList(props: DayListProps): JSX.Element {
 
 DayList.defaultProps = {
   onItemClick: undefined,
-};
+} as DayListProps;
 
 export default memo(DayList, isEqual);

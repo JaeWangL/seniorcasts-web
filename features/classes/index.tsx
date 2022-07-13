@@ -3,6 +3,7 @@ import { getNow } from '@libs/helpers/dayjs_helpers';
 import { type Dayjs } from 'dayjs';
 import { memo, useCallback, useState } from 'react';
 import isEqual from 'react-fast-compare';
+import ClassList from './classList';
 
 function Classes(): JSX.Element {
   const [selectedDate, setSelectedDate] = useState(getNow());
@@ -14,7 +15,7 @@ function Classes(): JSX.Element {
   return (
     <div>
       <DayList onItemClick={onDayClick} />
-      <p>Classes</p>
+      <ClassList selectedDate={selectedDate} />
     </div>
   );
 }

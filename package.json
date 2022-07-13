@@ -19,6 +19,7 @@
     "@chakra-ui/react": "^2.2.3",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+    "axios": "^0.27.2",
     "dayjs": "^1.11.3",
     "framer-motion": "^6",
     "jotai": "^1.7.4",
@@ -26,7 +27,8 @@
     "next-seo": "^5.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-fast-compare": "^3.2.0"
+    "react-fast-compare": "^3.2.0",
+    "react-query": "^3.39.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
